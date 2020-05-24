@@ -1,0 +1,26 @@
+﻿<Window x:Class="SimpleParser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleParser"
+        mc:Ignorable="d"
+        Title="RandomText" Height="450" Width="400">
+    <Grid Margin="3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <Button x:Name="BtnGetRandomPhrase" Click="GetRandomePhrase" Margin="0,0,0,2.5">Get random phrase</Button>
+            <Button Margin="0,0,0,5" Name="BtnSavePhrase" Click="SaveThisPhrase">Save this phrase</Button>
+            <ComboBox Name="CBChannelChooser" SelectionChanged="ChangeChannel">
+                <ComboBoxItem>Bash</ComboBoxItem>
+                <ComboBoxItem>ITHappens</ComboBoxItem>
+                <ComboBoxItem>Zadolbali</ComboBoxItem>
+            </ComboBox>
+            <Label Name ="informLabel"  HorizontalAlignment="Center" Visibility="Hidden">Wait</Label>
+        </StackPanel>
+        <TextBox Name="TbContaner" Grid.Column="1" TextWrapping="Wrap" Margin="3,0,0,0" AcceptsReturn="True"> hello </TextBox>
+    </Grid>
+</Window>

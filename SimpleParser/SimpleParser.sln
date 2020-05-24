@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleParser", "SimpleParser\SimpleParser.csproj", "{11DDC616-8DBA-4884-BFCF-7D141030858B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11DDC616-8DBA-4884-BFCF-7D141030858B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DDC616-8DBA-4884-BFCF-7D141030858B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DDC616-8DBA-4884-BFCF-7D141030858B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DDC616-8DBA-4884-BFCF-7D141030858B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D63B2982-6B69-4409-A19F-B23A06453746}
+	EndGlobalSection
+EndGlobal
